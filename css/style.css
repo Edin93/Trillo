@@ -55,6 +55,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
+  @media only screen and (max-width: 75em) {
+    body {
+      display: flex;
+      align-items: center; } }
 
 .container {
   max-width: 120rem;
@@ -66,7 +70,8 @@ body {
     .container {
       margin: 0;
       max-width: 100%;
-      width: 100%; } }
+      width: 100%;
+      min-height: 100%; } }
 
 .header {
   font-size: 1.4rem;
